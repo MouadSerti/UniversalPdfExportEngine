@@ -32,19 +32,20 @@ Aucune dépendance métier : chaque document est un module indépendant.
 
 ✅ Séparation claire :
 
-    Domain : modèles de données
-    
-    Services : logique métier
-    
-    Web : API WebMethod + interface
-    
-    Scripts : templates PDF
+   Domain : modèles de données
+   
+   Services : logique métier
+   
+   Web : API WebMethod + interface
+   
+   Scripts : templates PDF
 
 ✅ Exemple complet intégré : module Facture (Invoice)
 
 ✅ Compatible ASP.NET WebForms / VB.NET (sans Core, sans MVC)
 
 🧱 Architecture du projet
+
 UniversalPdfEXPORTENGINE/
 ├─ InvoiceExample.aspx                 # Interface UI + AJAX
 ├─ InvoiceExample.aspx.vb              # WebMethod (API JSON)
